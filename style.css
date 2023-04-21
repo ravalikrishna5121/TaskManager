@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Home {
+    display: flex;
+}
+
+.sidepanel {
+    width: 25vw;
+    height: 100vh;
+    background: rgb(44, 44, 44);
+    color: white;
+    padding: 10px 20px;
+}
+
+.sidepanel ul {
+    margin: 20px 0px;
+    list-style: none;
+}
+
+.Main {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidepanel ul li {
+    padding: 10px 5px;
+}
+
+.sidepanel ul li a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    background: rgb(29, 29, 29);
+}
+
+.block {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    padding: 0px 20px;
+    height: fit-content;
+}
+
+.block img {
+    width: 300px;
+}
+
+.block .text {
+    max-width: 300px;
+}
+.column{
+    flex-direction: column;
+}
+.check{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    padding: 5px;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+}
+.check p{
+    font-style: italic;
+    color: grey;
+    font-size:10px;
+}
+.project{
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+}
+.project .thumb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: seagreen;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+.dashed{
+    color: seagreen !important;
+    border:1px dashed seagreen;
+    background: none !important;
+
+}
